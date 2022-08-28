@@ -22,6 +22,14 @@ var busObject={
     description:"ATPI Halo is a carbon measurement, reduction and offset service designed by travel management experts."
 
 };
+var aeroplaneObject={
+    vehecal:'aeroplane',
+    imageUrl:"https://media.istockphoto.com/photos/3d-rendering-of-the-airport-terminal-picture-id1316256407?b=1&k=20&m=1316256407&s=170667a&w=0&h=Q_GYGCNfVs5ppoUdTGz372s82G-P_pBbKWnxeroq2Ek=",
+    farePerKilo:30,
+    capacity:300,
+    description:"ATPI Halo is a carbon measurement, reduction and offset service designed by travel management experts."
+
+};
 
 
 function displayService(service){
@@ -49,3 +57,4 @@ function displayService(service){
 displayService(busObject);
 displayService(carObject);
 displayService(bikeObject);
+displayService(aeroplaneObject);
